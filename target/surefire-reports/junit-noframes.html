@@ -1,0 +1,2078 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results.</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script language="JavaScript" type="text/javascript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['com.smallproject.dominicparks.AppTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf4419165265421956363.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.AddAccountTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf4419165265421956363.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.AddFirstAddressTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf4419165265421956363.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.AddToCartTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf4419165265421956363.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.ContactUsTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf4419165265421956363.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.LoginEmptyPassTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf4419165265421956363.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.LoginTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf4419165265421956363.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.LogoutTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf17635248940215025006.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.PaymentByBankWireTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf17635248940215025006.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.RegisterAlreadyEmailTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf4419165265421956363.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.RemoveProductTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf17635248940215025006.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.RoomSearchTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf17635248940215025006.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.UpdateAddressTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf17635248940215025006.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    
+    cur = TestCases['com.smallproject.dominicparks.test.ViewOrderHistoryTest'] = new Array();
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['classworlds.conf'] = 'C:\\Users\\user\\eclipse-workspace\\.metadata\\.plugins\\org.eclipse.m2e.launching\\launches\\m2conf17635248940215025006.tmp';
+    
+        cur['file.encoding'] = 'Cp1252';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['guice.disable.misplaced.annotation.check'] = 'true';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'C:\\Users\\user\\.p2\\pool\\plugins\\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\\jars\\plexus-classworlds-2.6.0.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\user\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Windows\\Sun\\Java\\bin;C:\\Windows\\system32;C:\\Windows;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/user/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\apache-maven-3.8.1-bin\\apache-maven-3.8.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\user\\.katalon\\tools\\android_sdk\\platform-tools;C:\\Users\\user\\.katalon\\tools\\android_sdk\\bin;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_181\\bin;;C:\\Users\\user\\Desktop;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_181-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_181';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.181-b13';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['maven.home'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks\\EMBEDDED';
+    
+        cur['maven.multiModuleProjectDirectory'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Windows 10';
+    
+        cur['os.version'] = '10.0';
+    
+        cur['path.separator'] = ';';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\lib\\jfr.jar;C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'amd64';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.codehaus.plexus.classworlds.launcher.Launcher -B test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'Cp1252';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = '';
+    
+        cur['user.country'] = 'ID';
+    
+        cur['user.dir'] = 'C:\\Users\\user\\eclipse-workspace\\DomainParks';
+    
+        cur['user.home'] = 'C:\\Users\\user';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'user';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = 'Asia/Bangkok';
+    
+        cur['user.variant'] = '';
+    </script><script language="JavaScript" type="text/javascript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://ant.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="Error">
+<td>14</td><td>0</td><td>3</td><td>78.57%</td><td>318.655</td>
+</tr>
+</table>
+<table width="95%" border="0">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr align="left" width="95%" size="1">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#com.smallproject.dominicparks">com.smallproject.dominicparks</a></td><td>1</td><td>0</td><td>0</td><td>0.012</td><td></td><td></td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="#com.smallproject.dominicparks.test">com.smallproject.dominicparks.test</a></td><td>13</td><td>3</td><td>0</td><td>318.643</td><td></td><td></td>
+</tr>
+</table>
+<hr align="left" width="95%" size="1">
+<a name="com.smallproject.dominicparks"></a>
+<h3>Package com.smallproject.dominicparks</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AppTest">AppTest</a></td><td>1</td><td>0</td><td>0</td><td>0.012</td><td></td><td></td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<a name="com.smallproject.dominicparks.test"></a>
+<h3>Package com.smallproject.dominicparks.test</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AddAccountTest">AddAccountTest</a></td><td>1</td><td>0</td><td>0</td><td>18.116</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AddFirstAddressTest">AddFirstAddressTest</a></td><td>1</td><td>0</td><td>0</td><td>20.558</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AddToCartTest">AddToCartTest</a></td><td>1</td><td>0</td><td>0</td><td>32.372</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ContactUsTest">ContactUsTest</a></td><td>1</td><td>0</td><td>0</td><td>55.272</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#LoginEmptyPassTest">LoginEmptyPassTest</a></td><td>1</td><td>0</td><td>0</td><td>14.586</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#LoginTest">LoginTest</a></td><td>1</td><td>0</td><td>0</td><td>14.591</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#LogoutTest">LogoutTest</a></td><td>1</td><td>0</td><td>0</td><td>14.507</td><td></td><td></td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="#PaymentByBankWireTest">PaymentByBankWireTest</a></td><td>1</td><td>1</td><td>0</td><td>45.935</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#RegisterAlreadyEmailTest">RegisterAlreadyEmailTest</a></td><td>1</td><td>0</td><td>0</td><td>10.956</td><td></td><td></td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="#RemoveProductTest">RemoveProductTest</a></td><td>1</td><td>1</td><td>0</td><td>25.907</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#RoomSearchTest">RoomSearchTest</a></td><td>1</td><td>0</td><td>0</td><td>20.978</td><td></td><td></td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#UpdateAddressTest">UpdateAddressTest</a></td><td>1</td><td>0</td><td>0</td><td>18.792</td><td></td><td></td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="#ViewOrderHistoryTest">ViewOrderHistoryTest</a></td><td>1</td><td>1</td><td>0</td><td>26.073</td><td></td><td></td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr align="left" width="95%" size="1">
+<a name="AddAccountTest"></a>
+<h3>TestCase AddAccountTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>register</td><td>Success</td><td></td><td>18.116</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.AddAccountTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="AddFirstAddressTest"></a>
+<h3>TestCase AddFirstAddressTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>addFirstAddres</td><td>Success</td><td></td><td>20.558</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.AddFirstAddressTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="AddToCartTest"></a>
+<h3>TestCase AddToCartTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>addToCart</td><td>Success</td><td></td><td>32.372</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.AddToCartTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="AppTest"></a>
+<h3>TestCase AppTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testApp</td><td>Success</td><td></td><td>0.012</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.AppTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ContactUsTest"></a>
+<h3>TestCase ContactUsTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>sendMessage</td><td>Success</td><td></td><td>55.272</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.ContactUsTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="LoginEmptyPassTest"></a>
+<h3>TestCase LoginEmptyPassTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>loginEmptypass</td><td>Success</td><td></td><td>14.586</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.LoginEmptyPassTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="LoginTest"></a>
+<h3>TestCase LoginTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>login</td><td>Success</td><td></td><td>14.591</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.LoginTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="LogoutTest"></a>
+<h3>TestCase LogoutTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>logout</td><td>Success</td><td></td><td>14.507</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.LogoutTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="PaymentByBankWireTest"></a>
+<h3>TestCase PaymentByBankWireTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td>orderProceed</td><td>Error</td><td>Index: 0, Size: 0<code>
+<br>
+<br>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0<br>	at java.util.ArrayList.rangeCheck(ArrayList.java:657)<br>	at java.util.ArrayList.get(ArrayList.java:433)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)<br>	at com.sun.proxy.$Proxy9.get(Unknown Source)<br>	at com.smallproject.dominicparks.pages.RoomsPage.clickBookNow(RoomsPage.java:50)<br>	at com.smallproject.dominicparks.test.AddToCartTest.addToCart(AddToCartTest.java:25)<br>	at com.smallproject.dominicparks.test.PaymentByBankWireTest.orderProceed(PaymentByBankWireTest.java:17)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</code></td><td>45.935</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.PaymentByBankWireTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="RegisterAlreadyEmailTest"></a>
+<h3>TestCase RegisterAlreadyEmailTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>alreadyEmail</td><td>Success</td><td></td><td>10.956</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.RegisterAlreadyEmailTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="RemoveProductTest"></a>
+<h3>TestCase RemoveProductTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td>deleteCart</td><td>Error</td><td>Index: 0, Size: 0<code>
+<br>
+<br>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0<br>	at java.util.ArrayList.rangeCheck(ArrayList.java:657)<br>	at java.util.ArrayList.get(ArrayList.java:433)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)<br>	at com.sun.proxy.$Proxy9.get(Unknown Source)<br>	at com.smallproject.dominicparks.pages.RoomsPage.clickBookNow(RoomsPage.java:50)<br>	at com.smallproject.dominicparks.test.RemoveProductTest.deleteCart(RemoveProductTest.java:20)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</code></td><td>25.907</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.RemoveProductTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="RoomSearchTest"></a>
+<h3>TestCase RoomSearchTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>room</td><td>Success</td><td></td><td>20.978</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.RoomSearchTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="UpdateAddressTest"></a>
+<h3>TestCase UpdateAddressTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>updateAddress</td><td>Success</td><td></td><td>18.792</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.UpdateAddressTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ViewOrderHistoryTest"></a>
+<h3>TestCase ViewOrderHistoryTest</h3>
+<table width="95%" cellspacing="2" cellpadding="5" border="0" class="details">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td>confirmationOrder</td><td>Error</td><td>Index: 0, Size: 0<code>
+<br>
+<br>java.lang.IndexOutOfBoundsException: Index: 0, Size: 0<br>	at java.util.ArrayList.rangeCheck(ArrayList.java:657)<br>	at java.util.ArrayList.get(ArrayList.java:433)<br>	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)<br>	at com.sun.proxy.$Proxy9.get(Unknown Source)<br>	at com.smallproject.dominicparks.pages.RoomsPage.clickBookNow(RoomsPage.java:50)<br>	at com.smallproject.dominicparks.test.AddToCartTest.addToCart(AddToCartTest.java:25)<br>	at com.smallproject.dominicparks.test.PaymentByBankWireTest.orderProceed(PaymentByBankWireTest.java:17)<br>	at com.smallproject.dominicparks.test.ViewOrderHistoryTest.confirmationOrder(ViewOrderHistoryTest.java:18)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br>	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)<br>	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:498)<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</code></td><td>26.073</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.smallproject.dominicparks.test.ViewOrderHistoryTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>
